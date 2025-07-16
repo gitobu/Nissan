@@ -35,12 +35,11 @@ public class VehicleActivity extends AppCompatActivity {
         if (extras != null) {
             initVehicle(extras.getInt("vehicleKey"));
             /*Think about is as open the extras and get the id mapped to the key vaccineKey
-             * and pass that id to initVaccine function*/
+             * and pass that id to initVehicle function*/
         } else {
             currentVehicle = new Vehicle();
         }
         setForEditing(false);
-        //currentVaccine = new Vaccine();
     }
     private void initVehicle(int id){
         VehicleDataSource vehicleDataSource = new VehicleDataSource(VehicleActivity.this);
@@ -145,6 +144,7 @@ public class VehicleActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 setForEditing(toggleButton.isChecked());
+                setForEditing(true);
             }
         });
     }

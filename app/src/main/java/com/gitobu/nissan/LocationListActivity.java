@@ -27,7 +27,7 @@ public class LocationListActivity extends AppCompatActivity {
             RecyclerView.ViewHolder viewHolder = (RecyclerView.ViewHolder)view.getTag();
             /*use getTag to know the ViewHolder that sent the tag - who tagged me?*/
             int position = viewHolder.getAdapterPosition(); /*What is the position of the tagging list?*/
-            /*With the position known we go to the the activity - here VehicleListActivity*/
+            /*With the position known, we go to the activity - here VehicleListActivity*/
             /*At this time we have the position but will do nothing with it*/
             int locationId = locations.get(position).getLocationID();
             Intent intent = new Intent(LocationListActivity.this, LocationActivity.class);
