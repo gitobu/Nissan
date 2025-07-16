@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vehicle Listing</string>
+    <string name="make_button">Make</string>
+    <string name="vehicle_screen">Vehicles</string>
+    <string name="location_screen">Locations</string>
+    <string name="staff_screen">Staff</string>
+    <string name="category_button">Category</string>
+    <string name="rating_button">Rating</string>
+    <string name="save_button_text">Save</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="make_hint">Vehicle Make</string>
+    <string name="category_hint">Vehicle Category</string>
+    <string name="model_hint">Vehicle Model</string>
+    <string name="location_name_text">Location</string>
+    <string name="location_name_hint">Enter Location Name</string>
+    <string name="street_address_text">Street Address</string>
+    <string name="string_address_hint">Enter Street Address</string>
+    <string name="city_text">City</string>
+    <string name="city_hint">Enter CIty</string>
+    <string name="zip_code_text">Zip Code</string>
+    <string name="zip_code_hint">Enter Zip Code</string>
+    <string name="state_text">State</string>
+    <string name="state_hint">Enter State</string>
+</resources>
